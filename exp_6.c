@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    printf("Name : Harshit Beniwal\nRoll no. : 125113054\n");
     int num, rev_num, rem;
     rev_num = 0;
     printf("Enter the no. to be revrsed \n");
