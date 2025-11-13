@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    printf("Name : Harshit Beniwal\nRoll no. : 125113054");
+    printf("Name : Harshit Beniwal\nRoll no. : 125113054\n\n");
     int a;
     printf("Please enter a positive integer: \n");
     scanf("%d", &a);

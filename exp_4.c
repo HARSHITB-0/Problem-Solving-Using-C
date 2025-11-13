@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    printf("Name : Harshit Beniwal \nRoll no. :125113054\n\n");
     int n;
     printf("Enter the no upto which sum is required : \n");
     scanf("%d", &n);
