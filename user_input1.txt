@@ -1,1 +1,5 @@
-1 2 3 4 5
+Hello Kitty
+Hello Kitty
+No numbers found in the source file.
+Sum: 78
+Average: 6.50

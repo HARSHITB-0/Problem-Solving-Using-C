@@ -25,7 +25,7 @@ int main()
         sum = ( sum + vector[i] );
     }
     avg = sum / a;
-    printf("Sum = %d", sum);
+    printf("Sum = %d\n", sum);
     printf("Avg = %.2f \n", avg);
     return 0;
 }

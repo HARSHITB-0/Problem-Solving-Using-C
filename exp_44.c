@@ -9,7 +9,7 @@ int main()
     FILE *fptr;
     char text[1000];
 
-    fptr = fopen("user_input1.txt", "w");
+    fptr = fopen("user_input.txt", "w");
 
     if (fptr == NULL)
     {

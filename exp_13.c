@@ -38,7 +38,7 @@ int main()
     {
         for (int j = 0; j < n - i - 1; j++)
         {
-            if (matrix1[j] == matrix1[j + 1])
+            if (matrix1[j] > matrix1[j + 1])
             {
                 temp = matrix1[j];
                 matrix1[j] = matrix1[j + 1];
@@ -47,9 +47,9 @@ int main()
         }
     }
     int count = 1;
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
-        if (matrix1[i] == matrix1[i + 1])
+        if (matrix1[i] == matrix1[i - 1])
         {
             count++;
         }
